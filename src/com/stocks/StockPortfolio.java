@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class StockPortfolio {
 	    int portfolioID;
+	    int totalStockPrice=0;
 		public ArrayList<Stock> stockList = new ArrayList<>();
 		
 		
@@ -12,7 +13,7 @@ public class StockPortfolio {
 			this.portfolioID = portfolioID;
 			
 		}
-
+		
 
 		@Override
 		public String toString() {
